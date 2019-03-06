@@ -7,4 +7,4 @@ before_install:
   - pip install pytest-cov
   - cd python
 script:
-  python testcases.txt | python calculator.py
+  python testcases.py | python calculator.py
