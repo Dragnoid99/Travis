@@ -5,6 +5,7 @@ from functions import divide
 
 def test_check_add():
     assert add ( 5 , 2 ) == 7
+    assert add ( 9 , 4 ) == 7
 
 def test_check_subtract():
     assert subtract ( 5 , 2 ) == 3
