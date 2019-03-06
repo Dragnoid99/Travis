@@ -1,7 +1,7 @@
-from calculator import add
-from calculator import subtract
-from calculator import multiply
-from calculator import divide
+from functions import add
+from functions import subtract
+from functions import multiply
+from functions import divide
 
 def test_check_add():
     assert add ( 5 , 2 ) == 7
