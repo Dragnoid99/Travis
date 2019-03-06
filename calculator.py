@@ -29,13 +29,13 @@ operation = raw_input () ;
 
 #Checking which operation it is and printing corresponding result
 
-if ( operation == '+' ):
-    print add ( x , y ) ;
-elif ( operation == '-' ):
-    print  subtract ( x , y ) ;
-elif ( operation == '*' ):
-    print multiply ( x , y ) ;
-elif ( operation == '/' ):
-    print divide ( x , y ) ;
-else :
-    print ( "Wrong operation!!!" ) ;
+#if ( operation == '+' ):
+#    print add ( x , y ) ;
+#elif ( operation == '-' ):
+#    print  subtract ( x , y ) ;
+#elif ( operation == '*' ):
+#    print multiply ( x , y ) ;
+#elif ( operation == '/' ):
+#    print divide ( x , y ) ;
+#else :
+#    print ( "Wrong operation!!!" ) ;
