@@ -20,8 +20,8 @@ def divide ( x , y ):
 
 #Taking inputs as the numbers
 
-x = int ( input ( "Enter first number: " ) ) ;
-y = int ( input ( "Enter second number: " ) ) ;
+x = int ( input () ) ;
+y = int ( input () ) ;
 
 #Taking input as the operation
 
