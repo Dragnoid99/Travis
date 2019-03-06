@@ -20,22 +20,22 @@ def divide ( x , y ):
 
 #Taking inputs as the numbers
 
-#x = int ( input () ) ;
-#y = int ( input () ) ;
+x = int ( raw_input () ) ;
+y = int ( raw_input () ) ;
 
 #Taking input as the operation
 
-#operation = input ( "Enter the operation: " ) ;
+operation = raw_input () ;
 
 #Checking which operation it is and printing corresponding result
 
-#if ( operation == '+' ):
-#    print ( "Answer: " , add ( x , y ) ) ;
-#elif ( operation == '-' ):
-#    print ( "Answer: " , subtract ( x , y ) ) ;
-#elif ( operation == '*' ):
-#    print ( "Answer: " , multiply ( x , y ) ) ;
-#elif ( operation == '/' ):
-#    print ( "Answer: " , divide ( x , y ) ) ;
-#else :
-#    print ( "Wrong operation!!!" ) ;
+if ( operation == '+' ):
+    print add ( x , y ) ;
+elif ( operation == '-' ):
+    print  subtract ( x , y ) ;
+elif ( operation == '*' ):
+    print multiply ( x , y ) ;
+elif ( operation == '/' ):
+    print divide ( x , y ) ;
+else :
+    print ( "Wrong operation!!!" ) ;
