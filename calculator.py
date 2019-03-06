@@ -1,6 +1,6 @@
 #The fuction that adds 2 numbers
 
-def add ( x , y ):
+def add (x,y):
     return x + y ;
 
 #The fuction that subtracts 2 numbers
