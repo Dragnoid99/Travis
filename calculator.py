@@ -5,7 +5,7 @@ def add(x,y):
 
 #The fuction that subtracts 2 numbers
 
-def subtract(x,y):ories
+def subtract(x,y):
 
     return x - y;
 
