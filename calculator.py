@@ -20,12 +20,12 @@ def divide ( x , y ):
 
 #Taking inputs as the numbers
 
-x = int ( raw_input () ) ;
-y = int ( raw_input () ) ;
+#x = int ( raw_input () ) ;
+#y = int ( raw_input () ) ;
 
 #Taking input as the operation
 
-operation = raw_input () ;
+#operation = raw_input () ;
 
 #Checking which operation it is and printing corresponding result
 
